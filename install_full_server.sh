@@ -9,19 +9,20 @@
 
 
 sudo apt-get update
-
+clear
 #install apache server
 figlet INSTALL APACHE
 sudo apt-get install apache2
-
+clear
 #install mysql
 sudo apt-get update
+clear
 figlet INSTALL MYSQL
 sudo apt-get install mysql-server 
 sudo mysql_secure_installation
-
+clear
 #install php
 figlet INSTALL PHP
-sudo apt-get install php libapache2-mod-php php-mcryypt php-mysql
+sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
 
 #END 
