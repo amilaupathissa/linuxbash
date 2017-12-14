@@ -7,7 +7,7 @@
 
 
 #install git
-sudo apt-get install git
+sudo apt-get install git -y
 		
 echo "Installing Figlet"
 sudo apt-get install figlet  
