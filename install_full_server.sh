@@ -23,6 +23,6 @@ sudo mysql_secure_installation
 clear
 #install php
 figlet INSTALL PHP
-sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
+sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql -y
 
 #END 
